@@ -23,9 +23,9 @@ mkdir -p ~/.local/share/fonts
 cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
 
 # 8. Download the config file
-cd ~/Downloads/; wget https://raw.githubusercontent.com/plentiform/go-ide/master/init.vim
+cd ; wget https://raw.githubusercontent.com/plentiform/go-ide/master/init.vim
 mkdir -p ~/.config/nvim
-mv ~/Downloads/init.vim ~/.config/nvim/
+mv ~/init.vim ~/.config/nvim/
 nvim ~/.config/nvim/init.vim
 # If the plugins didn't automatically install, press colon : then type PlugInstall and press Enter
 # Use vim-go to install binaries, press colon : then type GoInstallBinaries and press Enter
